@@ -8,16 +8,31 @@
             <img :src="item" :alt="product.title" class="product_img">
          </el-carousel-item>
       </el-carousel>
-      <h3>{{ product.title_long }}</h3>
+      <h3 class="color-header">{{ product.title_long }}</h3>
+      <div class="product__info">
+         <p v-if="product.breaf">{{ product.breaf }}</p>
+         <p v-if="product.material">Матеріал: {{ product.material }}</p>
+         <p v-for="t in product.description">{{ t }}</p>
+         <p  v-if="product.price" class="price">АКЦІЙНА ЦІНА: {{ product.price }} грн.</p>
+         <div @click="sendOrder" class="color-header order-button">Замовити</div>
+      </div>
    </div>
 </template>
 
 <script setup>
 /** @type {{product: import('../store/Product').Product}} */
 const props = defineProps(['product'])
+function sendOrder() {
+   const result = window.prompt('Для замовлення залиште номер телефону', '');
+   if (result) {
+      const message = `Замовлення з сайту LionStyle.com.ua. Товар: ${props.product.title_long}. Телефон: ${result}`
+      const url = `https://api.telegram.org/bot2127837679:AAESF7OchCAnzrIxjY1B6REHS_SXeVZ1lHo/sendMessage?chat_id=-602716737&text=${message}`;
+      fetch(url).then(() => console.log('OK')).catch(e => console.log(e))
+   }
+}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .product__card {
    border: solid 1px rgb(113, 110, 110);
 
@@ -32,6 +47,30 @@ const props = defineProps(['product'])
       width: 100%;
       height: 100%;
       object-fit: contain;
+   }
+
+   p.price {
+      color: red;
+      font-weight: bold;
+   }
+
+   .product__info{
+      padding: 0 10px;
+
+      p {
+         padding: 0 0 5px 0;
+         margin: 0;
+      }
+   }
+
+   .order-button {
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 1rem 0;
+   }
+
+   .order-button:hover {
+      cursor: pointer;
    }
    
 }
