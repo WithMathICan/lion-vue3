@@ -12,7 +12,7 @@ const TepliKostumy = new Product({
       'Неповторний дизайн і найвища якість пошиву від LION STYLE!',
    ],
    price: 1699,
-   imgs: ['/img/14.jpg','/img/15.jpg']
+   imgs: ['/img/14.jpg','/img/15.jpg','/img/31.jpg','/img/32.jpg','/img/33.jpg','/img/34.jpg']
 })
 
 const ExclusiveCostyumy = new Product({

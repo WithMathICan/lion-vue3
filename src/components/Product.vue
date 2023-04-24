@@ -13,7 +13,7 @@
          <p v-if="product.breaf">{{ product.breaf }}</p>
          <p v-if="product.material">Матеріал: {{ product.material }}</p>
          <p v-for="t in product.description">{{ t }}</p>
-         <p  v-if="product.price" class="price">АКЦІЙНА ЦІНА: {{ product.price }} грн.</p>
+         <p v-if="product.price" class="price">АКЦІЙНА ЦІНА: {{ product.price }} грн.</p>
          <div @click="sendOrder" class="color-header order-button">Замовити</div>
       </div>
    </div>
@@ -26,8 +26,9 @@ function sendOrder() {
    const result = window.prompt('Для замовлення залиште номер телефону', '');
    if (result) {
       const message = `Замовлення з сайту LionStyle.com.ua. Товар: ${props.product.title_long}. Телефон: ${result}`
-      const url = `https://api.telegram.org/bot2127837679:AAESF7OchCAnzrIxjY1B6REHS_SXeVZ1lHo/sendMessage?chat_id=-602716737&text=${message}`;
-      fetch(url).then(() => console.log('OK')).catch(e => console.log(e))
+      fetch('/api', {method: 'POST', body: JSON.stringify({message})}).then(() => console.log('OK')).catch(e => console.log(e))
+      // const url = `https://api.telegram.org/bot2127837679:AAESF7OchCAnzrIxjY1B6REHS_SXeVZ1lHo/sendMessage?chat_id=-602716737&text=${message}`;
+      // fetch(url).then(() => console.log('OK')).catch(e => console.log(e))
    }
 }
 </script>
