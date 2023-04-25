@@ -47,7 +47,7 @@ function sendOrder() {
    const result = window.prompt('Для замовлення залиште номер телефону', '');
    if (result) {
       const message = `Замовлення з сайту LionStyle.com.ua. Товар: ${props.product.title_long}. Телефон: ${result}`
-      fetch('/api-php/index.php', {
+      fetch('/api/index.php', {
          method: 'POST',
          body: JSON.stringify({ message }),
          headers: { "Content-Type": "application/json" }
