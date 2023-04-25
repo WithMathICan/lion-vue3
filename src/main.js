@@ -1,10 +1,17 @@
 import { createApp } from 'vue'
+// import 'element-plus/es/defaults.mjs'
+import 'element-plus/es/components/notification/style/css'
 import './style.scss'
 // import App from './App.vue'
 import ProductMenu from './components/ProductMenu.vue'
 import ProductsList from './components/ProductsList.vue'
 import { FormaCategory } from './store/forma'
 import { ClothesCategory } from './store/clothes'
+
+// import { getCurrentInstance } from 'vue'
+// import { ElNotification } from 'element-plus'
+// const { appContext } = getCurrentInstance()
+// ElNotification({}, appContext)
 
 // createApp(App).mount('#app')
 createApp(ProductMenu).mount('#product_menu')

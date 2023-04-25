@@ -21,17 +21,42 @@
 </template>
 
 <script setup>
+import { ElNotification } from 'element-plus'
 /** @type {{product: import('../store/Product').Product}} */
 const props = defineProps(['product'])
+
+function successInfo() {
+   ElNotification({
+      title: 'Замовдення зареєстровано',
+      message: 'Скоро вам перетелефонують для підтвердження замовлення',
+      type: 'success',
+      duration: 9000,
+   })
+}
+
+function errorInfo() {
+   ElNotification({
+      title: 'Помилка замовлення',
+      message: 'Спробуйте замовити пізніше',
+      type: 'error',
+      duration: 9000,
+   })
+}
+
 function sendOrder() {
    const result = window.prompt('Для замовлення залиште номер телефону', '');
    if (result) {
       const message = `Замовлення з сайту LionStyle.com.ua. Товар: ${props.product.title_long}. Телефон: ${result}`
       fetch('/api-php/index.php', {
-         method: 'POST', 
-         body: JSON.stringify({message}), 
-         headers: {"Content-Type": "application/json"}
-      }).then(() => console.log('OK')).catch(e => console.log(e))
+         method: 'POST',
+         body: JSON.stringify({ message }),
+         headers: { "Content-Type": "application/json" }
+      }).then(response => {
+         if (response.ok) successInfo()
+         else errorInfo()
+      }).catch(() => {
+         errorInfo()
+      })
    }
 }
 </script>
@@ -47,7 +72,7 @@ function sendOrder() {
       font-weight: 700;
    }
 
-   .product_img{
+   .product_img {
       width: 100%;
       height: 100%;
       object-fit: contain;
@@ -58,7 +83,7 @@ function sendOrder() {
       font-weight: bold;
    }
 
-   .product__info{
+   .product__info {
       padding: 0 10px;
 
       p {
@@ -77,6 +102,6 @@ function sendOrder() {
       cursor: pointer;
       user-select: none;
    }
-   
+
 }
 </style>
