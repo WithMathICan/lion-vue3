@@ -26,7 +26,8 @@ const DemiBruki = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 1550,
-   imgs: ['/img/5.jpg', '/img/6.jpg']
+   imgs: ['/img/5.jpg', '/img/6.jpg', '/img/db01.jpg', '/img/db02.jpg', '/img/db03.jpg', 
+      '/img/db04.jpg', '/img/db05.jpg', '/img/db06.jpg', '/img/db07.jpg', '/img/db08.jpg', '/img/db09.jpg', '/img/db10.jpg']
 })
 
 const LitniBruki = new Product({
@@ -54,7 +55,7 @@ const BoyoviSorochky = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 950,
-   imgs: ['/img/7.jpg','/img/8.jpg','/img/9.jpg']
+   imgs: ['/img/7.jpg','/img/8.jpg','/img/9.jpg','/img/r01.jpg','/img/r02.jpg','/img/r03.jpg','/img/r04.jpg','/img/r05.jpg']
 })
 
 const Shevrony = new Product({
@@ -66,7 +67,7 @@ const Shevrony = new Product({
       'Тільки найякісніші і найкращі шеврони для самих найкращих захисників у світі!!!',
       'Працюємо заради Перемоги з Україною в серці!',
    ],
-   imgs: ['/img/10.jpg','/img/11.jpg','/img/12.jpg','/img/13.jpg']
+   imgs: ['/img/10.jpg','/img/11.jpg','/img/12.jpg','/img/13.jpg','/img/sh01.jpg','/img/sh02.jpg']
 })
 
 export const FormaCategory = new Category({

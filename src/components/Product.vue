@@ -5,7 +5,8 @@
             <!-- <div class="img__wrapper">
                123
             </div> -->
-            <img :src="item" :alt="product.title" class="product_img">
+            <!-- <el-image :src="item" lazy :alt="product.title"/> -->
+            <img :src="item" :alt="product.title" class="product_img" loading="lazy">
          </el-carousel-item>
       </el-carousel>
       <h3 class="color-header">{{ product.title_long }}</h3>
@@ -26,9 +27,11 @@ function sendOrder() {
    const result = window.prompt('Для замовлення залиште номер телефону', '');
    if (result) {
       const message = `Замовлення з сайту LionStyle.com.ua. Товар: ${props.product.title_long}. Телефон: ${result}`
-      fetch('/api', {method: 'POST', body: JSON.stringify({message})}).then(() => console.log('OK')).catch(e => console.log(e))
-      // const url = `https://api.telegram.org/bot2127837679:AAESF7OchCAnzrIxjY1B6REHS_SXeVZ1lHo/sendMessage?chat_id=-602716737&text=${message}`;
-      // fetch(url).then(() => console.log('OK')).catch(e => console.log(e))
+      fetch('/api-php/index.php', {
+         method: 'POST', 
+         body: JSON.stringify({message}), 
+         headers: {"Content-Type": "application/json"}
+      }).then(() => console.log('OK')).catch(e => console.log(e))
    }
 }
 </script>
@@ -72,6 +75,7 @@ function sendOrder() {
 
    .order-button:hover {
       cursor: pointer;
+      user-select: none;
    }
    
 }

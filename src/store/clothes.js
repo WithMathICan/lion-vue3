@@ -26,7 +26,7 @@ const ExclusiveCostyumy = new Product({
       'Люксова якість пошиву від LION STYLE!',
    ],
    price: 1799,
-   imgs: ['/img/16.jpg'],
+   imgs: ['/img/16.jpg','/img/35.jpg','/img/36.jpg'],
 })
 
 export const ClothesCategory = new Category({
