@@ -11,7 +11,7 @@ const TepliBruki = new Product({
       'Дуже зручні, приємні та комфортні у використанні!',
       'Найвища якість пошиву від LION STYLE!',
    ],
-   price: 1750,
+   price: 2249,
    imgs: ['/img/3.jpg', '/img/4.jpg']
 })
 
@@ -25,8 +25,8 @@ const DemiBruki = new Product({
       'Дуже комфортні, зручні та міцні!',
       'Найвища якість пошиву від LION STYLE!',
    ],
-   price: 1550,
-   imgs: ['/img/5.jpg', '/img/6.jpg', '/img/db01.jpg', '/img/db02.jpg', '/img/db03.jpg', 
+   price: 1899,
+   imgs: ['/img/5.jpg', '/img/6.jpg', '/img/db03.jpg', 
       '/img/db04.jpg', '/img/db05.jpg', '/img/db06.jpg', '/img/db07.jpg', '/img/db08.jpg', '/img/db09.jpg', '/img/db10.jpg']
 })
 
@@ -40,7 +40,7 @@ const LitniBruki = new Product({
       'Дуже комфортні, зручні та міцні!',
       'Найвища якість пошиву від LION STYLE!',
    ],
-   price: 1250,
+   price: 1499,
    imgs: ['/img/21.webp','/img/22.webp','/img/23.jpg','/img/24.jpg','/img/25.jpg',]
 })
 
@@ -54,8 +54,36 @@ const BoyoviSorochky = new Product({
       'Дуже зручна і приємна у використанні!',
       'Найвища якість пошиву від LION STYLE!',
    ],
-   price: 950,
-   imgs: ['/img/7.jpg','/img/8.jpg','/img/9.jpg','/img/r01.jpg','/img/r02.jpg','/img/r03.jpg','/img/r04.jpg','/img/r05.jpg']
+   price: 1199,
+   imgs: ['/img/7.jpg','/img/8.jpg','/img/9.jpg','/img/r01.jpg','/img/r02.jpg','/img/r03.jpg','/img/r04.jpg', '/img/db01.jpg', '/img/db02.jpg','/img/r05.jpg']
+})
+
+const BoyoviKostyumy = new Product({
+   title: 'Бойові костюми',
+   title_long: 'Бойова сорочка + військові тактичні брюки',
+   href: 'boyovi-kostyumy',
+   breaf: 'Нова модель бойової тактичної сорочки з потайними кишенями на рукавах з блискавками!',
+   material: 'ріп-стоп піксель+кулпас хакі (Туреччина), надійна міцна фурнітура (Німеччина)',
+   description: [
+      'Нові моделі літніх військових костюмів: бойова сорочка + військові тактичні брюки!',
+      'Найвища якість пошиву від LION STYLE!',
+   ],
+   price: 2599,
+   imgs: ['/img/vk01.jpg','/img/vk02.jpg','/img/vk03.jpg']
+})
+
+const ViyskoviFutbolki = new Product({
+   title: 'Військові футболки',
+   title_long: 'Військові футболки',
+   href: 'ViyskoviFutbolki',
+   breaf: 'Нові моделі літніх військових футболок найвищої якості!',
+   material: 'кулір пеньє піксель (Туреччина)',
+   description: [
+      'Склад: 80% - хлопок, 20% - поліестер',
+      'Найвища якість пошиву від LION STYLE!',
+   ],
+   price: 249,
+   imgs: ['/img/vf01.jpg','/img/vf02.jpg','/img/vf03.jpg','/img/vf04.jpg','/img/vf05.jpg']
 })
 
 const Shevrony = new Product({
@@ -78,6 +106,8 @@ export const FormaCategory = new Category({
       DemiBruki,
       LitniBruki,
       BoyoviSorochky,
+      BoyoviKostyumy,
+      ViyskoviFutbolki,
       Shevrony,
    ],
 })
