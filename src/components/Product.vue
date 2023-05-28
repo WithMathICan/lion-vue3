@@ -12,10 +12,12 @@
       <h3 class="color-header">{{ product.title_long }}</h3>
       <div class="product__info">
          <p v-if="product.breaf">{{ product.breaf }}</p>
-         <p v-if="product.material">Матеріал: {{ product.material }}</p>
+         <p v-if="product.material">Матеріал: {{ product.material }} 👍</p>
          <p v-for="t in product.description">{{ t }}</p>
-         <p v-if="product.price" class="price">АКЦІЙНА ЦІНА: {{ product.price }} грн.</p>
-         <div @click="sendOrder" class="color-header order-button">Замовити</div>
+         <p v-if="product.price" class="price">АКЦІЙНА ЦІНА: {{ product.price }} грн. 🔥🔥🔥</p>
+
+         <a @click="sendOrder" class="color-header order-button">Замовити</a>
+         <a class="color-header order-button" href="viber://chat?number=%2B380508601507">Задати питання</a>
       </div>
    </div>
 </template>
@@ -64,6 +66,7 @@ function sendOrder() {
 <style lang="scss" scoped>
 .product__card {
    border: solid 1px rgb(113, 110, 110);
+   padding-bottom: 1rem;
 
    h3 {
       margin: 0;
@@ -95,7 +98,7 @@ function sendOrder() {
    .order-button {
       text-transform: uppercase;
       font-weight: 600;
-      padding: 1rem 0;
+      padding: 1rem 1rem 1rem 0;
    }
 
    .order-button:hover {

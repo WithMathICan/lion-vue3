@@ -5,6 +5,7 @@ import './style.scss'
 // import App from './App.vue'
 import ProductMenu from './components/ProductMenu.vue'
 import ProductsList from './components/ProductsList.vue'
+import Shops from './components/Shops.vue'
 import { FormaCategory } from './store/forma'
 import { ClothesCategory } from './store/clothes'
 
@@ -17,3 +18,5 @@ import { ClothesCategory } from './store/clothes'
 createApp(ProductMenu).mount('#product_menu')
 createApp(ProductsList, { products: FormaCategory.products }).mount('#forma-products')
 createApp(ProductsList, { products: ClothesCategory.products }).mount('#clothes-products')
+createApp(Shops).mount('#shops-to-buy')
+
