@@ -2,10 +2,6 @@
    <div class="product__card" :id="product.href">
       <el-carousel :interval="5000" arrow="always" :autoplay="false" indicator-position="none">
          <el-carousel-item v-for="item in product.imgs" :key="item">
-            <!-- <div class="img__wrapper">
-               123
-            </div> -->
-            <!-- <el-image :src="item" lazy :alt="product.title"/> -->
             <img :src="item" :alt="product.title" class="product_img" loading="lazy">
          </el-carousel-item>
       </el-carousel>

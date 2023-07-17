@@ -34,6 +34,12 @@ const Shop6 = {
     tel: ['095-810-7556'],
 }
 
+const Shop7 = {
+    title: 'Магазин "LION STYLE"',
+    address: 'м. Добропілля, вул. Івана Франка (Фрунзе), 30.',
+    tel: ['050-106-6845'],
+}
+
 
 export const Shops = [
     Shop1,
@@ -42,4 +48,5 @@ export const Shops = [
     Shop4,
     Shop5,
     Shop6,
+    Shop7,
 ]
