@@ -1,6 +1,8 @@
 footer {
    padding-bottom: 3rem;
    box-sizing: border-box;
+   background: $color-footer;
+   color: white;
 
    .footer-content {
       display: flex;
@@ -17,12 +19,12 @@ footer {
 
    hr {
       margin-top: 2rem;
-      color: $header-color;
+      color: $color-gold;
    }
 
    .title {
       font-size: 1.5rem;
-      color: $header-color;
+      color: $color-gold;
 
       .l {
          font-weight: 900;
@@ -30,7 +32,7 @@ footer {
    }
 
    .logo {
-      color: $text-color;
+      color: white;
       padding: 1rem;
       padding-top: 0;
       line-height: 2;
@@ -43,18 +45,18 @@ footer {
       list-style: none;
       margin: 0;
       padding: 0;
-      color: $text-color;
+      color: white;
    }
 
    h3 {
       text-align: left;
-      color: $text-color;
+      color: white;
       margin-top: 30px;
       // margin-bottom: -10px;
    }
 
    a {
-      color: $header-color;
+      color: $color-gold;
       text-decoration: none;
       // padding: 0.5rem;
       display: block;
