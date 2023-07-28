@@ -259,6 +259,20 @@ const NashivkaZSU = new Product({
    imgs: ['/img/zsu.jpg','/img/zsu01.jpg','/img/zsu02.jpg'],
 })
 
+const Futbolka7 = new Product({
+   title: 'Чорна Футболка з наліпками під шеврони',
+   href: 'Futbolka7',
+   title_long: 'Чорна футболка з наліпками під шеврони від LION STYLE 🦁',
+   breaf: 'Розмір: 48-58',
+   material: 'Стрейч Кулір найвищої якості (Туреччина) 👌',
+   description: [
+      'Склад: 95% бавовна, 5% поліестер 👍',
+      'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
+   ],
+   price: 449,
+   imgs: ['/img/futb7-01.jpg', '/img/futb7-02.jpg', '/img/futb7-03.jpg', '/img/futb7-04.jpg', '/img/futb7-05.jpg'],
+})
+
 export const FormaCategory = new Category({
    title: 'Військова форма',
    description: '',
@@ -280,5 +294,6 @@ export const FormaCategory = new Category({
       NashivkaZSU,
       ShevronDSNS,
       NashivkaDSNS,
+      Futbolka7,
    ],
 })
