@@ -10,7 +10,7 @@
          <p v-if="product.breaf">{{ product.breaf }}</p>
          <p v-if="product.material">Матеріал: {{ product.material }} 👍</p>
          <p v-for="t in product.description">{{ t }}</p>
-         <p v-if="product.price" class="price">АКЦІЙНА ЦІНА: {{ product.price }} грн. 🔥🔥🔥</p>
+         <p v-if="product.price" class="price">АКЦІЙНА ЦІНА: <span class="fake_price">{{ product.fake_price }} грн.</span> {{ product.price }} грн. 🔥🔥🔥</p>
 
          <a @click="sendOrder" class="color-header order-button">Замовити</a>
          <a class="color-header order-button" href="viber://chat?number=%2B380508601507">Задати питання</a>
@@ -100,6 +100,11 @@ function sendOrder() {
    .order-button:hover {
       cursor: pointer;
       user-select: none;
+   }
+
+   .fake_price {
+      color: #777;
+      text-decoration: line-through;
    }
 
 }

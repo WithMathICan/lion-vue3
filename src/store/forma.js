@@ -12,6 +12,7 @@ const TepliBruki = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 2249,
+   fake_price: 2449,
    imgs: ['/img/3.jpg', '/img/4.jpg']
 })
 
@@ -26,6 +27,7 @@ const DemiBruki = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 1949,
+   fake_price: 2149,
    imgs: ['/img/5.jpg', '/img/6.jpg', '/img/db03.jpg', 
       '/img/db04.jpg', '/img/db05.jpg', '/img/db06.jpg', '/img/db07.jpg', '/img/db08.jpg', '/img/db09.jpg', '/img/db10.jpg']
 })
@@ -41,6 +43,7 @@ const LitniBruki = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 1599,
+   fake_price: 1799,
    imgs: ['img/vtb01.jpg','img/vtb02.jpg', '/img/21.webp','/img/22.webp','/img/23.jpg','/img/24.jpg','/img/25.jpg',]
 })
 
@@ -55,6 +58,7 @@ const BoyoviSorochky = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 1249,
+   fake_price: 1349,
    imgs: ['/img/bs01.jpg','/img/bs02.jpg','/img/bs03.jpg','/img/7.jpg','/img/8.jpg','/img/9.jpg','/img/r01.jpg','/img/r02.jpg','/img/r03.jpg','/img/r04.jpg', '/img/db01.jpg', '/img/db02.jpg','/img/r05.jpg']
 })
 
@@ -69,6 +73,7 @@ const BoyoviKostyumy = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 2699,
+   fake_price: 3199,
    imgs: ['/img/vk04.jpg','/img/vk05.jpg','/img/vk06.jpg', '/img/vk01.jpg','/img/vk02.jpg','/img/vk03.jpg']
 })
 
@@ -83,6 +88,7 @@ const ViyskoviFutbolki = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 249,
+   fake_price: 349,
    imgs: ['/img/vf01.jpg','/img/vf02.jpg','/img/vf03.jpg','/img/vf04.jpg','/img/vf05.jpg']
 })
 
@@ -97,6 +103,7 @@ const ViyskoviFutbolki2 = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 249,
+   fake_price: 349,
    imgs: ['/img/vf2-07.jpg','/img/vf2-08.jpg','/img/vf2-09.jpg','/img/vf2-01.jpg','/img/vf2-02.jpg','/img/vf2-03.jpg','/img/vf2-04.jpg','/img/vf2-05.jpg','/img/vf2-06.jpg']
 })
 
@@ -111,6 +118,7 @@ const KombinovanaFutbolka = new Product({
       'Найвища якість пошиву від LION STYLE!',
    ],
    price: 449,
+   fake_price: 549,
    imgs: ['/img/kvf04.jpg','/img/kvf05.jpg','/img/kvf06.jpg','/img/kvf01.jpg','/img/kvf02.jpg','/img/kvf03.jpg']
 })
 
@@ -125,6 +133,7 @@ const Futbolka2 = new Product({
       'Люксова якість пошиву від LION STYLE 👌⭐⭐⭐⭐⭐',
    ],
    price: 349,
+   fake_price: 449,
    imgs: ['/img/f06.jpg','/img/f07.jpg','/img/f08.jpg','/img/f01.jpg','/img/f02.jpg','/img/f03.jpg','/img/f04.jpg','/img/f05.jpg']
 })
 
@@ -139,6 +148,7 @@ const LitnyaViyskovaFutbolka = new Product({
       'Люксова якість пошиву від LION STYLE ⭐⭐⭐⭐⭐',
    ],
    price: 449,
+   fake_price: 549,
    imgs: ['/img/lvf01.jpg','/img/lvf02.jpg']
 })
 
@@ -153,6 +163,7 @@ const FutbolkaVKombinovana = new Product({
       'Найвища якість пошиву від LION STYLE 👌',
    ],
    price: 449,
+   fake_price: 549,
    imgs: ['/img/fvk01.jpg','/img/fvk02.jpg','/img/fvk03.jpg','/img/fvk04.jpg','/img/fvk05.jpg']
 })
 

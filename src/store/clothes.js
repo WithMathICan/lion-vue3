@@ -12,6 +12,7 @@ const TepliKostumy = new Product({
       'Неповторний дизайн і найвища якість пошиву від LION STYLE!',
    ],
    price: 1999,
+   fake_price: 2499,
    imgs: ['/img/14.jpg','/img/15.jpg','/img/31.jpg','/img/32.jpg','/img/33.jpg','/img/34.jpg']
 })
 
@@ -26,6 +27,7 @@ const TeplyiKostum = new Product({
       'Люксова якість пошиву від LION STYLE 👌⭐⭐⭐⭐⭐',
    ],
    price: 1999,
+   fake_price: 2499,
    imgs: ['/img/tk01.jpg','/img/tk02.jpg','/img/tk03.jpg']
 })
 
@@ -40,6 +42,7 @@ const ExclusiveCostyumy = new Product({
       'Люксова якість пошиву від LION STYLE!',
    ],
    price: 2099,
+   fake_price: 2599,
    imgs: ['/img/16.jpg','/img/35.jpg','/img/36.jpg'],
 })
 
@@ -54,6 +57,7 @@ const ExclusiveCostyum2 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 2099,
+   fake_price: 2599,
    imgs: ['/img/extk01.jpg','/img/extk02.jpg','/img/extk03.jpg'],
 })
 
@@ -68,6 +72,7 @@ const Futbolka = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 399,
+   fake_price: 499,
    imgs: ['/img/f002.jpg','/img/f01.webp','/img/f02.webp','/img/f03.webp','/img/f04.webp','/img/f001.jpg','/img/f003.jpg','/img/f004.jpg'],
 })
 
@@ -82,6 +87,7 @@ const Futbolka1 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 549,
+   fake_price: 649,
    imgs: ['/img/futb1-01.jpg'],
 })
 
@@ -96,6 +102,7 @@ const Futbolka2 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 499,
+   fake_price: 599,
    imgs: ['/img/futb2-01.jpg'],
 })
 
@@ -110,6 +117,7 @@ const Futbolka3 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 479,
+   fake_price: 579,
    imgs: ['/img/futb3-01.jpg'],
 })
 
@@ -124,6 +132,7 @@ const Futbolka4 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 549,
+   fake_price: 649,
    imgs: ['/img/futb4-01.jpg'],
 })
 
@@ -138,6 +147,7 @@ const Futbolka5 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 599,
+   fake_price: 699,
    imgs: ['/img/futb5-01.jpg'],
 })
 
@@ -152,6 +162,7 @@ const Futbolka6 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 599,
+   fake_price: 699,
    imgs: ['/img/futb6-01.jpg', '/img/futb6-02.jpg'],
 })
 
