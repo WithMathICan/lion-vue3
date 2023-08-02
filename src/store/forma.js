@@ -281,6 +281,7 @@ const Futbolka7 = new Product({
       'Люксова якість пошиву від LION STYLE! 👌⭐⭐⭐⭐⭐',
    ],
    price: 449,
+   fake_price: 549,
    imgs: ['/img/futb7-01.jpg', '/img/futb7-02.jpg', '/img/futb7-03.jpg', '/img/futb7-04.jpg', '/img/futb7-05.jpg'],
 })
 
@@ -299,12 +300,12 @@ export const FormaCategory = new Category({
       Futbolka2,
       LitnyaViyskovaFutbolka,
       FutbolkaVKombinovana,
+      Futbolka7,
       Shevrony1,
       ShevronyWide,
       ShevronySmall,
       NashivkaZSU,
       ShevronDSNS,
       NashivkaDSNS,
-      Futbolka7,
    ],
 })
