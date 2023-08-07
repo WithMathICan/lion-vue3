@@ -44,7 +44,22 @@ const LitniBruki = new Product({
    ],
    price: 1599,
    fake_price: 1799,
-   imgs: ['img/vtb01.jpg','img/vtb02.jpg', '/img/21.webp','/img/22.webp','/img/23.jpg','/img/24.jpg','/img/25.jpg',]
+   imgs: ['/img/vtb01.jpg','/img/vtb02.jpg', '/img/21.webp','/img/22.webp','/img/23.jpg','/img/24.jpg','/img/25.jpg',]
+})
+
+const PoliceiskiBruki = new Product({
+   title: 'Поліцейські брюки',
+   title_long: 'Поліцейські брюки чоловічі від LION STYLE 🦁',
+   href: 'PoliceiskiBruki',
+   breaf: 'Розмір: 48-58',
+   material: 'Матеріал: ріп-стоп чорний (Туреччина), фурнітура (Німеччина) 👍',
+   description: [
+      'Дуже комфортні, зручні та міцні!',
+      'Люксова якість пошиву від LION STYLE 💪',
+   ],
+   price: 1950,
+   fake_price: 2150,
+   imgs: ['/img/p01.jpg','/img/p02.jpg','/img/p03.jpg','/img/p04.jpg','/img/p05.jpg']
 })
 
 const BoyoviSorochky = new Product({
@@ -292,6 +307,7 @@ export const FormaCategory = new Category({
       TepliBruki,
       DemiBruki,
       LitniBruki,
+      PoliceiskiBruki,
       BoyoviSorochky,
       BoyoviKostyumy,
       KombinovanaFutbolka,
