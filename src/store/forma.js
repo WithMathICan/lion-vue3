@@ -77,20 +77,20 @@ const BoyoviKostyumy = new Product({
    imgs: ['/img/vk04.jpg','/img/vk05.jpg','/img/vk06.jpg', '/img/vk01.jpg','/img/vk02.jpg','/img/vk03.jpg']
 })
 
-const ViyskoviFutbolki = new Product({
-   title: 'Військові футболки',
-   title_long: 'Військові футболки',
-   href: 'ViyskoviFutbolki',
-   breaf: 'Нові моделі літніх військових футболок найвищої якості!',
-   material: 'кулір пеньє піксель (Туреччина)',
-   description: [
-      'Склад: 80% - хлопок, 20% - поліестер. Розмір: 48-58.',
-      'Найвища якість пошиву від LION STYLE!',
-   ],
-   price: 249,
-   fake_price: 349,
-   imgs: ['/img/vf01.jpg','/img/vf02.jpg','/img/vf03.jpg','/img/vf04.jpg','/img/vf05.jpg']
-})
+// const ViyskoviFutbolki = new Product({
+//    title: 'Військові футболки',
+//    title_long: 'Військові футболки',
+//    href: 'ViyskoviFutbolki',
+//    breaf: 'Нові моделі літніх військових футболок найвищої якості!',
+//    material: 'кулір пеньє піксель (Туреччина)',
+//    description: [
+//       'Склад: 80% - хлопок, 20% - поліестер. Розмір: 48-58.',
+//       'Найвища якість пошиву від LION STYLE!',
+//    ],
+//    price: 249,
+//    fake_price: 349,
+//    imgs: ['/img/vf01.jpg','/img/vf02.jpg','/img/vf03.jpg','/img/vf04.jpg','/img/vf05.jpg']
+// })
 
 const ViyskoviFutbolki2 = new Product({
    title: 'Військові футболки кулір піксель',
@@ -104,7 +104,7 @@ const ViyskoviFutbolki2 = new Product({
    ],
    price: 249,
    fake_price: 349,
-   imgs: ['/img/vf2-07.jpg','/img/vf2-08.jpg','/img/vf2-09.jpg','/img/vf2-01.jpg','/img/vf2-02.jpg','/img/vf2-03.jpg','/img/vf2-04.jpg','/img/vf2-05.jpg','/img/vf2-06.jpg']
+   imgs: ['/img/vf2-07.jpg','/img/vf2-08.jpg','/img/vf2-09.jpg','/img/vf2-01.jpg','/img/vf2-02.jpg','/img/vf2-03.jpg','/img/vf2-04.jpg','/img/vf2-05.jpg','/img/vf2-06.jpg', '/img/vf01.jpg','/img/vf02.jpg','/img/vf03.jpg','/img/vf04.jpg','/img/vf05.jpg']
 })
 
 const KombinovanaFutbolka = new Product({
@@ -119,7 +119,7 @@ const KombinovanaFutbolka = new Product({
    ],
    price: 449,
    fake_price: 549,
-   imgs: ['/img/kvf04.jpg','/img/kvf05.jpg','/img/kvf06.jpg','/img/kvf01.jpg','/img/kvf02.jpg','/img/kvf03.jpg']
+   imgs: ['/img/kvf01.jpg','/img/kvf02.jpg','/img/kvf03.jpg']
 })
 
 const Futbolka2 = new Product({
@@ -164,7 +164,7 @@ const FutbolkaVKombinovana = new Product({
    ],
    price: 449,
    fake_price: 549,
-   imgs: ['/img/fvk01.jpg','/img/fvk02.jpg','/img/fvk03.jpg','/img/fvk04.jpg','/img/fvk05.jpg']
+   imgs: ['/img/kvf04.jpg','/img/kvf05.jpg','/img/kvf06.jpg','/img/fvk01.jpg','/img/fvk02.jpg','/img/fvk03.jpg','/img/fvk04.jpg','/img/fvk05.jpg']
 })
 
 // const Shevrony = new Product({
@@ -295,7 +295,7 @@ export const FormaCategory = new Category({
       BoyoviSorochky,
       BoyoviKostyumy,
       KombinovanaFutbolka,
-      ViyskoviFutbolki,
+      // ViyskoviFutbolki,
       ViyskoviFutbolki2,
       Futbolka2,
       LitnyaViyskovaFutbolka,
