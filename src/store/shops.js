@@ -40,6 +40,17 @@ const Shop7 = {
     tel: ['050-106-6845'],
 }
 
+const Shop8 = {
+    title: 'Магазин "Імперія шпалер"',
+    address: 'м. Київ, вул. Максимовича, 3г (м. Васильківська)',
+    tel: ['095-333-6559'],
+}
+
+const Shop9 = {
+    title: 'Виставковий зал "LION STYLE"',
+    address: 'м. Київ, вул. Юрківська, 34а (м. Тараса Шевченка)',
+    tel: ['068-171-4071'],
+}
 
 export const Shops = [
     Shop1,
@@ -49,4 +60,6 @@ export const Shops = [
     Shop5,
     Shop6,
     Shop7,
+    Shop8,
+    Shop9,
 ]

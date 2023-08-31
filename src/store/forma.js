@@ -230,7 +230,7 @@ const ShevronySmall = new Product({
       'Працюємо заради Перемоги з Україною в серці!',
    ],
    price: 30,
-   imgs: ['/img/sh12.jpg']
+   imgs: ['/img/sh12.jpg', ]
 })
 
 const ShevronDSNS = new Product({
@@ -243,7 +243,7 @@ const ShevronDSNS = new Product({
       'Працюємо заради Перемоги з Україною в серці!',
    ],
    price: 60,
-   imgs: ['/img/sh13.jpg']
+   imgs: ['/img/sh13.jpg','/img/sh28.jpg','/img/sh29.jpg']
 })
 
 // const ShevronPolice = new Product({
