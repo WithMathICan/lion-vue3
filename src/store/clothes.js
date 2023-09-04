@@ -1,5 +1,5 @@
-import { Product } from './Product'
-import { Category } from './Category'
+import { Product } from './Product.js'
+import { Category } from './Category.js'
 
 const TepliKostumy = new Product({
    title: 'Теплі костюми',
