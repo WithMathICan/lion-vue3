@@ -1,6 +1,38 @@
 import { Product } from './Product.js'
 import { Category } from './Category.js'
 
+const TepliKostumPixel = new Product({
+   title: 'Теплий військовий тактичний костюм',
+   title_long: 'Теплий військовий тактичний костюм (куртка+брюки) від LION STYLE 🦁',
+   href: 'TepliKostumPixel',
+   breaf: '',
+   material: 'софтшел піксель (Туреччина), фурнітура (Німеччина) 👍',
+   description: [
+      'Дуже теплий, міцний, надійний, вологостійкий, приємний, зручний та комфортний 👌',
+      'Люксова якість пошиву від LION STYLE 💪',
+      'Розмір: 48-58',
+   ],
+   price: 4850,
+   fake_price: 5555,
+   imgs: ['/img/tvtk01.jpg', '/img/tvtk02.jpg','/img/tvtk03.jpg','/img/tvtk04.jpg','/img/tvtk05.jpg','/img/tvtk06.jpg',
+   '/img/tvtk07.jpg','/img/tvtk08.jpg','/img/tvtk09.jpg','/img/tvtk10.jpg']
+})
+
+const TepliKurtkiPixel = new Product({
+   title: 'Теплі куртки',
+   title_long: 'Теплі військові куртки піксель софтшел від LION STYLE 🦁',
+   href: 'TepliKurtkiPixel',
+   breaf: '',
+   material: 'софтшел піксель (Туреччина), фурнітура (Німеччина) 👍',
+   description: [
+      'Дуже теплі, міцні, вологостійкі, приємні та комфортні 👌',
+      'Люксова якість пошиву від LION STYLE 💪',
+      'Розмір: 48-58',
+   ],
+   price: 2850,
+   fake_price: 3250,
+   imgs: ['/img/tvk01.jpg', '/img/tvk02.jpg','/img/tvk03.jpg','/img/tvk04.jpg','/img/tvk05.jpg','/img/tvk06.jpg','/img/tvk07.jpg','/img/tvk08.jpg']
+})
 
 const TepliBruki = new Product({
    title: 'Теплі брюки',
@@ -13,9 +45,9 @@ const TepliBruki = new Product({
       'Люксова якість пошиву від LION STYLE 💪',
       'Розмір: 48-58',
    ],
-   price: 2350,
+   price: 2250,
    fake_price: 2549,
-   imgs: ['/img/tvb01.jpg', '/img/tvb02.jpg', '/img/tvb03.jpg', '/img/tvb04.jpg', '/img/tvb05.jpg', '/img/tvb06.jpg']
+   imgs: ['/img/tvb10.jpg', '/img/tvb12.jpg', '/img/tvb13.jpg', '/img/tvb14.jpg', '/img/tvb11.jpg']
 })
 
 const DemiBruki = new Product({
@@ -302,10 +334,27 @@ const Futbolka7 = new Product({
    imgs: ['/img/futb7-01.jpg', '/img/futb7-02.jpg', '/img/futb7-03.jpg', '/img/futb7-04.jpg', '/img/futb7-05.jpg'],
 })
 
+const Cap = new Product({
+   title: 'Капелюх',
+   href: 'Cap',
+   title_long: 'Теплий військовий капелюх від LION STYLE 🦁',
+   breaf: 'Розмір: 48-58',
+   material: 'софтшел піксель (Туреччина), вологостійка, вогнестійка тканина з пропиткою 👍',
+   description: [
+      'Теплий, міцний, вологостійкий, приємний, зручний і комфортний 👌',
+      'Люксова якість пошиву від LION STYLE 💪',
+   ],
+   price: 450,
+   fake_price: 550,
+   imgs: ['/img/k01.jpg', '/img/k02.jpg', '/img/k03.jpg'],
+})
+
 export const FormaCategory = new Category({
    title: 'Військова форма',
    description: '',
    products: [
+      TepliKostumPixel,
+      TepliKurtkiPixel,
       TepliBruki,
       DemiBruki,
       LitniBruki,
@@ -325,5 +374,6 @@ export const FormaCategory = new Category({
       NashivkaZSU,
       ShevronDSNS,
       NashivkaDSNS,
+      Cap,
    ],
 })
