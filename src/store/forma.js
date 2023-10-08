@@ -12,7 +12,7 @@ const TepliMilitaryKostum = new Product({
       'Люксова якість пошиву від LION STYLE 💪',
       'Розмір: 48-58',
    ],
-   price: 5299,
+   price: 4750,
    fake_price: 5799,
    imgs: ['/img/vkt01.jpg', '/img/vkt02.jpg', '/img/vkt03.jpg', '/img/vkt04.jpg', '/img/vkt05.jpg']
 })
@@ -28,7 +28,7 @@ const TepliKostumPixel = new Product({
       'Люксова якість пошиву від LION STYLE 💪',
       'Розмір: 48-58',
    ],
-   price: 4850,
+   price: 4450,
    fake_price: 5555,
    imgs: ['/img/tvtk01.jpg', '/img/tvtk02.jpg','/img/tvtk03.jpg','/img/tvtk04.jpg','/img/tvtk05.jpg','/img/tvtk06.jpg',
    '/img/tvtk07.jpg','/img/tvtk08.jpg','/img/tvtk09.jpg','/img/tvtk10.jpg','/img/tvtk21.jpg','/img/tvtk22.jpg','/img/tvtk23.jpg','/img/tvtk24.jpg','/img/tvtk25.jpg','/img/tvtk26.jpg']
@@ -61,7 +61,7 @@ const TepliBruki = new Product({
       'Люксова якість пошиву від LION STYLE 💪',
       'Розмір: 48-58',
    ],
-   price: 2250,
+   price: 1850,
    fake_price: 2549,
    imgs: ['/img/tvb10.jpg', '/img/tvb12.jpg', '/img/tvb13.jpg', '/img/tvb14.jpg', '/img/tvb11.jpg']
 })
@@ -76,7 +76,7 @@ const DemiBruki = new Product({
       'Дуже комфортні, зручні та міцні!',
       'Найвища якість пошиву від LION STYLE!',
    ],
-   price: 1949,
+   price: 1750,
    fake_price: 2149,
    imgs: ['/img/5.jpg', '/img/6.jpg', '/img/db03.jpg', 
       '/img/db04.jpg', '/img/db05.jpg', '/img/db06.jpg', '/img/db07.jpg', '/img/db08.jpg', '/img/db09.jpg', '/img/db10.jpg']
@@ -107,7 +107,7 @@ const PoliceiskiBruki = new Product({
       'Дуже комфортні, зручні та міцні!',
       'Люксова якість пошиву від LION STYLE 💪',
    ],
-   price: 1950,
+   price: 1750,
    fake_price: 2150,
    imgs: ['/img/p01.jpg','/img/p02.jpg','/img/p03.jpg','/img/p04.jpg','/img/p05.jpg']
 })
