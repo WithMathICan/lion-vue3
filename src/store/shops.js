@@ -52,14 +52,21 @@ const Shop9 = {
     tel: ['068-171-4071'],
 }
 
+const Shop10 = {
+    title: 'Магазин "Військові товари"',
+    address: 'м. Київ, просп. Повітрофлотський, 5.',
+    tel: ['068-371-5460'],
+}
+
 export const Shops = [
     Shop1,
     Shop2,
     Shop3,
     Shop4,
     Shop5,
-    Shop6,
+    //Shop6,
     Shop7,
     Shop8,
     Shop9,
+    Shop10,
 ]
