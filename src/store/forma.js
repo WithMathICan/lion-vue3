@@ -10,10 +10,11 @@ const TepliMilitaryKostum = new Product({
    description: [
       'Дуже теплий, міцний, надійний, вологостійкий, приємний, зручний та комфортний 👌',
       'Люксова якість пошиву від LION STYLE 💪',
+      "Капелюх у подарунок",
       'Розмір: 48-58',
    ],
-   price: 4750,
-   fake_price: 5799,
+   price: 3999,
+   fake_price: 4850,
    imgs: ['/img/vkt01.jpg', '/img/vkt02.jpg', '/img/vkt03.jpg', '/img/vkt04.jpg', '/img/vkt05.jpg']
 })
 
@@ -28,8 +29,8 @@ const TepliKostumPixel = new Product({
       'Люксова якість пошиву від LION STYLE 💪',
       'Розмір: 48-58',
    ],
-   price: 4450,
-   fake_price: 5555,
+   price: 3999,
+   fake_price: 4850,
    imgs: ['/img/tvtk01.jpg', '/img/tvtk02.jpg','/img/tvtk03.jpg','/img/tvtk04.jpg','/img/tvtk05.jpg','/img/tvtk06.jpg',
    '/img/tvtk07.jpg','/img/tvtk08.jpg','/img/tvtk09.jpg','/img/tvtk10.jpg','/img/tvtk21.jpg','/img/tvtk22.jpg','/img/tvtk23.jpg','/img/tvtk24.jpg','/img/tvtk25.jpg','/img/tvtk26.jpg']
 })
@@ -61,7 +62,7 @@ const TepliBruki = new Product({
       'Люксова якість пошиву від LION STYLE 💪',
       'Розмір: 48-58',
    ],
-   price: 1850,
+   price: 1750,
    fake_price: 2549,
    imgs: ['/img/tvb10.jpg', '/img/tvb12.jpg', '/img/tvb13.jpg', '/img/tvb14.jpg', '/img/tvb11.jpg']
 })
@@ -107,7 +108,7 @@ const PoliceiskiBruki = new Product({
       'Дуже комфортні, зручні та міцні!',
       'Люксова якість пошиву від LION STYLE 💪',
    ],
-   price: 1750,
+   price: 1650,
    fake_price: 2150,
    imgs: ['/img/p01.jpg','/img/p02.jpg','/img/p03.jpg','/img/p04.jpg','/img/p05.jpg']
 })
@@ -423,7 +424,7 @@ const FliskaPixelWithBlack = new Product({
       '',
       'Можливий пошив будь-якого розміру по індивідуальному замовленню!👌',
    ],
-   price: 1350,
+   price: 1250,
    fake_price: 1650,
    imgs: ['/img/IMG_20231206_175433.jpg', '/img/IMG_20231206_175452.jpg', '/img/IMG_20231206_175527.jpg', '/img/IMG_20231206_175738.jpg', '/img/IMG_20231206_175815.jpg', '/img/IMG_20231206_175844.jpg', '/img/IMG_20231206_175909.jpg', '/img/IMG_20231206_180058.jpg', '/img/IMG_20231206_180147.jpg', '/img/IMG_20231206_180223.jpg', '/img/IMG_20231206_180332.jpg', '/img/IMG_20231206_180354.jpg', '/img/IMG_20231206_180416.jpg', '/img/IMG_20231206_180442.jpg'],
 })
@@ -444,8 +445,8 @@ const TepliiViiskovyKostyum = new Product({
       '',
       'Можливий пошив будь-якого розміру по індивідуальному замовленню!👌',
    ],
-   price: 4450,
-   fake_price: 5550,
+   price: 3999,
+   fake_price: 4850,
    imgs: ['/img/IMG_20231206_172306.jpg', '/img/IMG_20231206_172330.jpg', '/img/IMG_20231206_172356.jpg', '/img/IMG_20231206_172418.jpg', '/img/IMG_20231206_172511.jpg', '/img/IMG_20231206_172606.jpg', '/img/IMG_20231206_172648.jpg', '/img/IMG_20231206_172803.jpg', '/img/IMG_20231206_172855.jpg', '/img/IMG_20231206_172940.jpg', '/img/IMG_20231206_173013.jpg', '/img/IMG_20231206_173317.jpg', '/img/IMG_20231206_173346.jpg', '/img/IMG_20231206_173404.jpg', '/img/IMG_20231206_173452.jpg', '/img/IMG_20231206_173510.jpg'],
 })
 
